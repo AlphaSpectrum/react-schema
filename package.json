@@ -1,25 +1,42 @@
 {
-  "name": "rschema3",
-  "version": "0.1.0",
-  "private": true,
+  "name": "rschema",
+  "version": "1.0.2",
+  "description": "A React component for working with schemas.",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaSpectrum/rschema.git"
+  },
+  "keywords": [
+    "schema.org",
+    "seo",
+    "react",
+    "search",
+    "engine",
+    "optimization",
+    "metadata"
+  ],
+  "author": "Alan Campos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlphaSpectrum/rschema/issues"
+  },
+  "homepage": "https://github.com/AlphaSpectrum/rschema#readme",
   "dependencies": {
     "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "webpack": "^2.6.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
 }
