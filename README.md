@@ -2,13 +2,13 @@
 
 rschema is a React component that takes the role of managing and rendering your application's schema.
 
-#Installation
+## Installation
 
 ```sh
 npm i rschema
 ```
 
-# Example
+## Example
 ```javascript
 import {Schema} from 'rschema'
 
